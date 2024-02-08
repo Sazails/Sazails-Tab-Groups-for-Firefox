@@ -1,0 +1,34 @@
+{
+    "manifest_version": 2,
+    "name": "Sazails-Tab-Groups",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "contextMenus"
+      ],
+  
+    "description": "Allows you to group your tabs together in groups.",
+  
+    "icons": {
+      "48": "icons/icon48.png",
+      "96": "icons/icon96.png"
+    },
+
+    "background": {
+      "scripts": ["sazails-tab-groups.js"],
+      "persistent": true
+    },
+
+    "browser_action": {
+        "default_icon": "icons/icon48.png",
+        "default_title": "Saz-Tab-Groups",
+        "default_popup": "popup/tab-group-viewer.html"
+      },
+
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "tab-groups@sazails.org"
+        }
+    }   
+}
