@@ -30,3 +30,19 @@ Giving Mozilla the awareness that this is a useful native functionality to have 
 If you can please like the post to show Firefox you are interested in the feature.
 
 https://connect.mozilla.org/t5/ideas/native-tab-grouping-more-customizable-tab-bar/idi-p/303
+
+
+## How to try this out?
+
+1. Open Firefox
+2. Type in top search-bar "**about:debugging**"
+3. On loaded web-page press "**This Firefox**"
+4. Press button "**Load Temporary Add-on**"
+5. File explorer should open
+6. Select the "**sazails-tab-groups.js**" file. 
+
+Now you can refer to **Example usage** section.
+
+## Example screenshots
+
+![Screenshot 1](github_stuff/screenshot1.png) ![Screenshot 2](github_stuff/screenshot2.png)
